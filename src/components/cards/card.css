@@ -1,0 +1,12 @@
+.custom-dashed-border {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 24px;
+    border-image: repeating-linear-gradient(
+      45deg,
+      #E8CFF5 0 12px,
+      transparent 12px 18px
+    );
+    border-image-slice: 1;
+  }
+  
