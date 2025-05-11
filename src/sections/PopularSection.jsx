@@ -29,7 +29,7 @@ const PopularSection = () => {
   return (
     <div className="px-10">
       <div className="flex justify-center text-[32px] py-10">
-        <p>POPULAR POSTS</p>
+        <p className="font-[Sansation] font-[800]">POPULAR POSTS</p>
       </div>
       <div className="flex flex-row flex-wrap justify-center gap-[50px]">
         {cardsData.map((item, index) => (

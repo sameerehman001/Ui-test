@@ -18,7 +18,7 @@ const ImageMain = () => {
               BEST MAKE-UP PRODUCTS 2023
             </p>
             <div className="mt-2">
-              <BlackButton text="Read More" />
+              <BlackButton text="READ MORE" />
             </div>
           </div>
         </div>

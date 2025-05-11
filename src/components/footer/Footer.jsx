@@ -13,12 +13,12 @@ const Footer = () => {
           <div className="flex flex-col gap-4">
             <p className="text-[24px] font-bold">Logo</p>
             <p className="text-[14px]">It’s time to shine again!</p>
-            <div className="flex flex-row">
+            <div className="flex flex-row max-[400px]:flex-col">
               <div className="border border-gray-500 p-2 flex flex-row gap-2 items-center">
                 <div>icon</div>
                 <p className="pr-16 text-[12px]">you@example.com</p>
               </div>
-              <div className="flex items-center border border-gray-500 p-2 text-[12px]">
+              <div className="flex items-center border border-gray-500 p-2 text-[12px] max-[400px]:border-none">
                 SUBSCRIBE
               </div>
             </div>
@@ -44,14 +44,14 @@ const Footer = () => {
                 </div>
               </div>
               <div className="col-span-12 sm:col-span-4 p-4">
-                <div className="flex flex-col gap-2 text-gray-500">
+                <div className="flex flex-col gap-2 text-gray-300">
                   <p>ABOUT US</p>
                   <p>TERMS OF SERVICE</p>
                   <p>ADVERTISE</p>
                 </div>
               </div>
               <div className="col-span-12 sm:col-span-4 p-4">
-                <div className="flex flex-col gap-2 text-gray-500">
+                <div className="flex flex-col gap-2 text-gray-300">
                   <p>PRIVACY POLICY</p>
                   <p>EDITORIAL POLICY</p>
                   <p>CONTACT</p>
